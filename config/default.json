@@ -4,17 +4,17 @@
         "secretKey": "itcast",
         "expiresIn": 86400
     },
-    "upload_config": {
+    "product_upload_config": {
         "baseURL": "http://127.0.0.1:8888",
         "upload_ueditor": "uploads/ueditor",
         "simple_upload_redirect": "http://127.0.0.1/reload"
     },
-    "product_upload_config": {
+    "upload_config": {
         "baseURL": "http://120.27.247.79:8888",
         "upload_ueditor": "uploads/ueditor",
         "simple_upload_redirect": "http://120.27.247.79/reload"
     },
-    "db_config": {
+    "product_db_config": {
         "protocol": "mysql",
         "host": "127.0.0.1",
         "database": "student",
@@ -22,7 +22,7 @@
         "password": "123456",
         "port": 3306
     },
-    "product_db_config": {
+    "db_config": {
         "protocol": "mysql",
         "host": "120.27.247.79",
         "database": "mysql",
