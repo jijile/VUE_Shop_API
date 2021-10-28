@@ -16,7 +16,7 @@ var app = express()
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
-app.use(express.static('./disk'))
+app.use(express.static('./dist'))
 
 // 初始化数据库模块
 var database = require('./modules/database')
